@@ -7,12 +7,9 @@ Welcome to the **PakStellar GIS Mapping Project**, created for the **NASA Space 
 
 A **Geographic Information System (GIS)** allows you to create, manage, analyze, and visualize data to uncover spatial patterns and relationships. By layering open datasets onto maps, new insights emerge—revealing connections between physical geography and the societal issues they influence.
 
-This project aims to address the [specific community issue your project focuses on, e.g., "impacts of air pollution on local water quality," "food accessibility in urban areas," "green spaces in residential zones"] by analyzing **open science data** overlaid onto a **custom-built map**. The objective is to showcase how spatial data can provide unique perspectives and solutions to real-world challenges.
-
 ## 🛰️ **Challenge Objective**
 
 The **NASA Space Apps Challenge** encourages participants to use mapping technologies and open data to explore how physical geography shapes community issues. Our project specifically tackles:
-- **[Insert Your Community Issue]**: For example, understanding the distribution of green spaces in urban neighborhoods and how they impact air quality, public health, and overall livability.
 - **GIS Mapping and Analysis**: Using various open datasets, we analyze and visualize spatial relationships to generate meaningful insights.
 
 ## 🛠️ **Project Tools and Technologies**
@@ -21,7 +18,6 @@ The **NASA Space Apps Challenge** encourages participants to use mapping technol
 - **GIS Libraries**: To handle geospatial data, including:
   - `Leafmap` / `ipyleaflet` for interactive mapping.
   - `GeoPandas` for geospatial data handling and analysis.
-  - `Matplotlib` or `Plotly` for visualizing spatial data overlays.
 - **Open Data Sources**: We used publicly available datasets (e.g., [specific datasets, e.g., "NASA Earth Observations," "OpenStreetMap data"]) to overlay on the map for insightful analysis.
 - **Interactive Visualizations**: Creating an interactive map that allows users to explore various layers of data.
 
@@ -39,12 +35,9 @@ The **NASA Space Apps Challenge** encourages participants to use mapping technol
     cd NASA_Space_Apps_2024
     ```
 2. **Install the necessary dependencies**:
+    Manually install key libraries:
     ```bash
-    pip install -r requirements.txt
-    ```
-   Alternatively, manually install key libraries:
-    ```bash
-    pip install geopandas ipyleaflet leafmap matplotlib
+    !pip install geopandas ipyleaflet leafmap pandas
     ```
 
 3. **Open the Jupyter Notebook**:
@@ -61,7 +54,7 @@ The **NASA Space Apps Challenge** encourages participants to use mapping technol
    - Use different basemaps and layers to compare and contrast geographic features and community issues.
 
 2. **Data Analysis & Visualization**:
-   - Overlay various layers of open data to analyze their relationships, such as environmental factors (e.g., pollution, vegetation), infrastructure (e.g., roads, buildings), or demographic information.
+   - Overlay various layers of open data to analyze their relationships
    - Generate visual insights through charts, graphs, and heatmaps.
 
 3. **Real-World Issue Exploration**:
@@ -76,7 +69,7 @@ The **NASA Space Apps Challenge** encourages participants to use mapping technol
 
 2. **Map Creation & Layering**:
    - Use **Leafmap** or **ipyleaflet** to build an interactive map centered around your area of interest.
-   - Overlay datasets as separate layers (e.g., pollution sources, vegetation areas, infrastructure) to provide a visual exploration tool.
+   - Overlay datasets as separate layers to provide a visual exploration tool.
 
 3. **Visualization & Analysis**:
    - Analyze the spatial data to identify trends, correlations, and insights that help understand the community issue in greater depth.
@@ -96,7 +89,7 @@ The **NASA Space Apps Challenge** encourages participants to use mapping technol
 
 ## 🏆 **Team & Contributions**
 
-- **Team PakStellar**: [Include team member names, roles, and any notable contributions]
+- **Team PakStellar**: [Haseeb Ijaz, Kainat Ijaz, Aun]
 - **Contributors**: If you would like to contribute to this project, please feel free to open an issue or create a pull request.
 
 ## 📊 **Future Enhancements**
